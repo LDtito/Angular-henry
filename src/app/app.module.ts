@@ -13,6 +13,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { NavLeftComponent } from './shared/nav-left/nav-left.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { NavLeftComponent } from './shared/nav-left/nav-left.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    NavLeftComponent
+    NavLeftComponent,
+    RegisterComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
