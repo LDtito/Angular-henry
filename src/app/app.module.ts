@@ -6,34 +6,25 @@ import { AppComponent } from './app.component';
 
 import { NotFoundComponent } from './not-found/not-found.component';
 import { LoginComponent } from './auth/login/login.component';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { ProductComponent } from './pages/product/product.component';
-import { CategoryComponent } from './pages/category/category.component';
-import { HeaderComponent } from './shared/header/header.component';
-import { FooterComponent } from './shared/footer/footer.component';
-import { NavComponent } from './shared/nav/nav.component';
-import { NavLeftComponent } from './shared/nav-left/nav-left.component';
 import { RegisterComponent } from './auth/register/register.component';
-import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
+import { PagesComponent } from './pages/pages.component';
+import { AuthComponent } from './auth/auth.component';
+import { SharedComponent } from './shared/shared.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
     LoginComponent,
-    DashboardComponent,
-    ProductComponent,
-    CategoryComponent,
-    HeaderComponent,
-    FooterComponent,
-    NavComponent,
-    NavLeftComponent,
     RegisterComponent,
-    BreadcrumbsComponent
+    PagesComponent,
+    AuthComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
